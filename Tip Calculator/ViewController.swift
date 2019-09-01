@@ -34,6 +34,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         self.splitPicker.delegate = self
         self.splitPicker.dataSource = self
         pickerData = [0, 1, 2, 3, 4]
+        self.billField.becomeFirstResponder()
     }
     
     override func didReceiveMemoryWarning() {
@@ -64,8 +65,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
 
     @IBAction func onTap(_ sender: Any) {
-        print("Hello")
-        
         view.endEditing(true)
     }
     
