@@ -14,7 +14,6 @@
 		FCDB98CB231AFF12000855CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDB98C9231AFF12000855CC /* LaunchScreen.storyboard */; };
 		FCDB98D6231AFF12000855CC /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB98D5231AFF12000855CC /* Tip_CalculatorTests.swift */; };
 		FCDB98E1231AFF12000855CC /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB98E0231AFF12000855CC /* Tip_CalculatorUITests.swift */; };
-		FCDB98EF231B2C16000855CC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB98EE231B2C16000855CC /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		FCDB98DC231AFF12000855CC /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDB98E0231AFF12000855CC /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		FCDB98E2231AFF12000855CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCDB98EE231B2C16000855CC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +97,6 @@
 		FCDB98BF231AFF10000855CC /* Tip Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				FCDB98EE231B2C16000855CC /* SettingsViewController.swift */,
 				FCDB98C0231AFF10000855CC /* AppDelegate.swift */,
 				FCDB98C2231AFF10000855CC /* ViewController.swift */,
 				FCDB98C4231AFF10000855CC /* Main.storyboard */,
@@ -261,7 +258,6 @@
 			files = (
 				FCDB98C3231AFF10000855CC /* ViewController.swift in Sources */,
 				FCDB98C1231AFF10000855CC /* AppDelegate.swift in Sources */,
-				FCDB98EF231B2C16000855CC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
