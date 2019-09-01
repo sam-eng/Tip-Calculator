@@ -1,10 +1,10 @@
-# Pre-work - *Name of App Here*
+# Pre-work - Tip Calculator
 
-**Name of your app** is a tip calculator application for iOS.
+Tip Calculator is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: Samantha Eng
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## User Stories
 
@@ -17,28 +17,31 @@ The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
 - [X] List anything else that you can get done to improve the app functionality!
-- I added a picker to select how many people you want to split your bill with and display the cost of the bill per person.
+- [X] I added a pickerView to select how many people you want to split your bill with and display the cost of the bill per person.
+- [X] Added dark mode
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://recordit.co/FIyFEWghWd' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Recordit](https://recordit.co/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
+My challenges were mostly self-imposed; I wanted to use a pickerView and struggled a lot with implementing it how I wanted to, since it wasn't something mentioned at all in the tutorial.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2019 Samantha Eng
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
